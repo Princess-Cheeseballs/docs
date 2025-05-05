@@ -63,6 +63,8 @@ Additionally, the Void Jetpack should be added to the VGRoid loot pool, it's dan
 
 That aside, salvagers using jetpacks to get to the Roid and eventually upgrading to liquid oxygen is fine as is. No changes necessary on the jetpack side. The only issue I've seen is the inconsistencies with VGRoid distance to station.
 
+In the case where liquid oxygen damages salvagers though, either jetpacks will need larger capacities, or jetpack tanks will need to be split into two tanks, that way you can wear a jetpack that has one air tank and one fuel tank.
+
 #### Gateway/Dropship
 
 Giving salvage a shuttle is a bad idea and trying to get them to build a shuttle has ended catostrophically. Salvage needs to progress towards a better form of transportation that allows them to more easily get to the far off places they need to go, but also allows other people to go there as well.
@@ -79,7 +81,9 @@ The jump from carps to Goliaths is big and doesn't really matter a whole lot whe
 
 On the inverse, getting stuff to you is harder as well. A big benefit of a shuttle is you can stuff all the meds, and lathes, and everything on it you want. If Salvage is going to ditch the shuttle entirely, they will need a way to carry more meds and ammo and other things in a way that doesn't horribly break game balance like a shuttle does. 
 
-// Continue from here...
+Having played with fultons being craftable and researchable, I don't think they are fully the solution we need. Fultons are great once you get there, but getting there is a pain is the issue. Which is why I think most inventory problems have to be addressed as transportation problems. 
+
+If salvage can extend their inventory by storing stuff in a physical location, like on the station, and the station isn't unreasonably far away, the problem is solved.
 
 ### THE ROID
 The VGRoid should be the mid to endgame for salvage. At least half of their time per shift should be dedicated to either being on the roid, preparing for the roid, coming back from the roid or explaining to QM that the other salvagers died on the roid and you need 40,000 spesos to save them.
@@ -120,7 +124,47 @@ A trouble is more open form but no less difficult and would be something like: T
 
 Regardless of mission type all expeds should have hard time limits, where the gate is forced to close or dropship is forced to leave and flavor wise, there should be an in lore reason why you don't just stay on the planet and never return to NT (place is overwhelmed with monsters, NT is moving in to take control of the dungeon, something something unwinnable battle rocks fall).
 
+#### Communication!!!!
 
+The Roid needs to be better communicated to the player.
+
+A lot of salvagers, literally don't even know the roid exists. Nor that it has dungeons on it, nor that it's really fun.
+
+A big piece of the blame comes to it's spawning. It spawns way too far away, sometimes it's 2000 meters away not even close to being on the mass scanner and taking genuine minutes to fly to.
+
+In addition to the magnet having basically everything you need aside from diamonds it's very easy to see why many salvagers just stick to the magnet. It's very easy to just never learn the roid exists and even if you do learn, it may often just be so far out of the way it's not even worth trying to go to. 
+
+Roid needs to consistently spawn closer to the station, simple as. 
+
+### MAGNETS!!!
+
+Fucking mangets, how do they work?
+
+The magnet is not great. It's too good of an all rounder for everything meaning many salvagers just use the magnet exclusively and never move on from it. It's also extremely random, sometimes you get woefully unlucky and never roll gold on asteroids all shift, although that kind of bad luck is never common enough for you to stop using the magnet.
+
+The magnet should be refactored into a early game jumping off point, a place where you do a few pulls, get your gear, get some basic materials for the station and then move on to bigger and better things. 
+
+For this I advocate for a big change, the magnet should only be able to pull debris roundstart.
+
+Now this sounds like a big nerf to the magnet, because it is, but it needs to be balanced out with other changes and a minor buff to the magnet as well for it to work.
+
+#### Space Debris
+
+Space needs to have asteroids and debris floating in it. Once salvage needs/wants gamer loot and ore they should be forced to explore. Go to the roid, check out some of those funny lumps near the station, the baby bird must leave their nest eventually. This would be a dumping ground for most of the magnet content that currently exists and would need a new home. 
+
+For the rest of that content we need something more robust.
+
+#### Space Scanner
+
+A new Science computer that allows you to play a minigame to generate a bit of research points (If you've played Goonstation you know exactly what I'm talking about).
+
+But as an additional reward you can find and upload coordinates to Salvage's magnet (or telesci if we ever get that but that's another design doc) to give them more options!
+
+Over time this means salvage's magnet will gain access to more pulls which will be more consistent, need gold and your team is inbetween roid runs? Check the magnet and see if science found an asteroid with gold! Salvage not mining as usual? Find the asteroid with the materials you want and do their job for them! This also integrates science deeper into salvage and salvage deeper into science. Now if a salvage wants to never mine and just pull medium wrecks all shift in hope of contra-maxxing, they have to ask science to help them do it.
+
+Science could also find wrecks of their interest which could facillitate their research. Perhaps a wreck is the ruins of an old lost space station which was rumored to have discovered how to cook a donk pocket in less than 30 seconds! Only the brave salvagers can go into this deserted wreck and bring home the antique microwave for science to tear apart for research.
+
+However, looking at this computer through the lens of just giving more magnet pulls is a limiting perspective. If you're scanning all of space, who knows what you can find, this computer could be used as a jumping off point for starting space based Events, calling in terrors as an antag, getting vague and cool lore, or interesting roleplaying opportunities. And of course, it could be used as a jumping off point for someone to make a proper telescience department. 
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
@@ -134,6 +178,10 @@ GPS changes specifically are meant to be similar to suit coordinates, but more g
 
 Proposed changes to the Void Jetpack, make the arguably best loot in the game still obtainable but there is now an actual risk when trying to get it. 
 
+The changes to the magnet are meant to force salvagers to experience a bit more danger while also letting someone take it slow and steady if they're willing to wait around a bit. Plus they can just explore space rocks instead of going to the roid if it's too difficult.
+
+The Space Scanner is meant to add depth to space and tie in salvage closer to the station and science in general.
+
 Consider addressing:
 - How does the feature align with our [Core Design Principles](../space-station-14/core-design/design-principles.md) and game philosphy?
 - What makes this feature enjoyable or rewarding for players?
@@ -143,6 +191,8 @@ Consider addressing:
 
 ## Roundflow & Player interaction
 
+TODO
+
 Consider addressing:
 - At what point in the round does the feature come into play? Does it happen every round? How does it affect the round pace?
 - How do you wish for players to interact with your feature and how should they not interact with it? How is this mechanically enforced?
@@ -150,11 +200,21 @@ Consider addressing:
 
 ## Administrative & Server Rule Impact (if applicable)
 
+TODO
+
 - Does this feature introduce any new rule enforcement challenges or additional workload for admins?
 - Could this feature increase the likelihood of griefing, rule-breaking, or player disputes?
 - How are the rules enforced mechanically by way the feature will be implemented?
 
 # Technical Considerations
+
+TODO
+
+There's a lot of technical considerations in this proposal, particularly with the new proposed science computer which will require a new UI, a new minigame, and definitely a number of new components and systems for sending pulls to the station's magnet.
+
+The GPS requiring a new UI as well, and having to add GPS signals to the mass scanner interface is both a technical challenge as well.
+
+Same goes for the gateway/dropship. A lot of it can be done with stuff we already have, but there will need to be an extra layer of polishing and tweaking before it's done.
 
 - Are there any anticipated performance impacts?
 - Does the feature require new systems, UI elements, or refactors of existing ones?
