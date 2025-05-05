@@ -36,7 +36,7 @@ This means that in their place there need to be systems to make up for the stren
 For Navigation, the mass scanner exists but it's not enough. A big strength of the shuttle is you can see it on a mass scanner, meaning you know where your salvage buddies currently are and usually what they're doing just by looking at a map. With the death of the shittle I propose a buff to the GPS in return. 
 
 #### Changes to the GPS
-- The GPS should be given a UI that displays GPS signals in a circle around you with a distance to them, or in a big list with coordinates (undecided on which I prefer)
+- The GPS should be given a UI that displays GPS signals in a circle around you with a distance to them, or in a big list with coordinates (really depends on how much we want salvage to suffer)
 - GPSs should emit GPS signals when turned on, the Astronav should emit these signals too
 - GPSs should be able to be named, if they do not have a name they should show up as a dot without a name to avoid clutter
 - The Station and Cargo Shuttle should emit GPS signals with appropriate names by default
@@ -53,11 +53,25 @@ Additionally, nukies and other ship using antagonists can now avoid salvagers ru
 
 This also gives salvagers a way to navigate to the VGRoid in the event they get unlucky with mass scanners, or science explodes too many times, by placing down a GPS beacon with an RTG generator next to it. Or perhaps some kind of new "mini generator" that connects to LV cables like a welding fuel generator, but with far less power output. 
 
+#### Jetpacks
+
 Contuining with Navigation, Salvage actually needs a way to get to the VGRoid as well as derelict debris scattered throughout space. Currently Salvagers use mini-jetpacks, typically filled with liquid oxygen. This works well for their job however there is one thing I would change and it doesn't involve mini-jetpacks. 
+
 Void Jetpacks are the best salvage loot in the game hands down. If there is a derelict that has a guaranteed spawn it is genuinely worth dropping everything to go and get it before someone else does. This isn't a major issue because Salvage should have good jetpacks and I wouldn't want the void jetpack removed. 
-Rather, I would make it a necessity that any debris that spawns with a void jetpack should have a genuine danger preventing you from just walking in and taking it. Perhaps include a couple VGRoid spawns, or a Syndicate simplemob with a viper, or something to make it a genuine risk to rush without a team or without being prepared.
-Additionally, the Void Jetpack should be added to the VGRoid loot pool, it's dangerous enough to justify it spawning very rarely. And you'll already have a jetpack by the time you get there so the other jetpack spawns are functionally worthless.
-That aside, salvagers using jetpacks to get to the Roid and eventually upgrading to liquid oxygen is fine as is. No changes necessary. The jetpack in its current state, including the bug that lets you go faster by tapping keys perpendicular to your movement, works very well.
+Rather, I would make it a necessity that any debris that spawns with a void jetpack should have a genuine danger preventing you from just walking in and taking it. Perhaps include a couple VGRoid spawns, or a Syndicate simplemob with a viper, or something to add any amount of risk to just rushing one.
+Additionally, the Void Jetpack should be added to the VGRoid loot pool, it's dangerous enough to justify it spawning very rarely. And since you'll already have a jetpack by the time you get there so the other jetpack spawns are functionally worthless.
+
+That aside, salvagers using jetpacks to get to the Roid and eventually upgrading to liquid oxygen is fine as is. No changes necessary on the jetpack side. The only issue I've seen is the inconsistencies with VGRoid distance to station.
+
+#### Gateway/Dropship
+
+Giving salvage a shuttle is a bad idea and trying to get them to build a shuttle has ended catostrophically. Salvage needs to progress towards a better form of transportation that allows them to more easily get to the far off places they need to go, but also allows other people to go there as well.
+
+A station gateway or dropship (former is easier to implement but I think the latter has more flavor) is a tried and true solution to this problem. Having a stationary "teleporter" that can bring salvage to their destination provided they have the right FTL coordinates is the best solution.
+
+For progression this would put a dropship/gate in salvage and/or in a public place on the station (so anyone can in theory use it) which at round start wouldn't have any destinations available to teleport to.
+
+On the Roid, Salvage can turn on an FTL beacon/gateway somewhere by a dungeon generated dock which allows easy traversal between the roid and the station. This beacon/gateway should be turned off by default and require a little bit of engineering knowledge to set up. It should also be guarded by guaranteed monster spawns of some sort to ensure that if salvage wants to rush it roundstart they have difficulties doing so. 
 
 ### Inventory
 This is the big one. There's not really a point to going to places with more loot if you can't carry that loot back anyways. Especially if those places are significantly more dangerous.
@@ -66,6 +80,47 @@ The jump from carps to Goliaths is big and doesn't really matter a whole lot whe
 On the inverse, getting stuff to you is harder as well. A big benefit of a shuttle is you can stuff all the meds, and lathes, and everything on it you want. If Salvage is going to ditch the shuttle entirely, they will need a way to carry more meds and ammo and other things in a way that doesn't horribly break game balance like a shuttle does. 
 
 // Continue from here...
+
+### THE ROID
+The VGRoid should be the mid to endgame for salvage. At least half of their time per shift should be dedicated to either being on the roid, preparing for the roid, coming back from the roid or explaining to QM that the other salvagers died on the roid and you need 40,000 spesos to save them.
+
+The Roid has a very strong interconnected gameplay loop with only a few issues that need to be addressed.
+
+#### Enemy Variety
+The Roid's enemy variety is pretty bad and should be increased. This one is tricky because enemies on the Roid should serve a number of functions.
+
+1. Danger!!! They should make the roid dangerous, there's no reward without risk
+
+2. Useful!!! They should all drop something useful to a salvager (Hivelord remains, Goliath Plates, Some other third thing cause there's only TWO enemies)
+
+3. Interesting!!! Each monster should fit the roid's asthetic of creepy, scary, alien, they should also be fun to fight and have a unqiue gimmick to them. (Hivelords rush you and can pile up if you don't deal with their spawn, Goliaths you have to strafe and try not to get tripped up).
+
+4. Fair!!! Putting this down because the monsters should feel fair. This doesn't mean they should be weak, or easy, but if a monster has a big attack that can ruin your day it should be telegraphed. There shouldn't be any moments where you die to an enemy doing something the game did not communicate to you. 
+
+Any new enemies should meet these standards and there should be at least a few.
+
+#### Discs!!!
+
+Discs or Coordinate disks are rare finds on the VGRoid which are incredibly valuable to sell, but far more valuable to use. These discs contain the coordinates to a rare and probably dangerous lost section of space that your quartermaster would be very interested in you going to. These discs should be the only source to some rare forms of gamer loot, but that should never be the focus of them. They should always reward something that is useful to the station as well such that if you don't grab it QM will tattle to HoS about all your contraband.
+
+##### Magnet Discs!!!
+
+Magnet discs are rare disks which pull in unique timed magnet pulls. These pulls can be hand crafted in the same way ruins currently are, but with far less restrictions on danger and loot. 
+As well these can be used to facillitate boss fights, especially space boss fights of which our physics engine uniquely allows us to make very epic (if AI can ever pathfind through space that is)
+
+##### Expeds!!!
+
+This is the best solution I could find for expeds. Expeds should be made a roid only loot item in the form of coordinate disks. These disks when inserted into a shuttle or dropship/gateway console will allow salvagers to access a time-limited mission on another planet. 
+
+Mission is the key word, expeds should have a mission modifier applied to them that either adds a goal or a trouble.
+
+A goal would be something like: There is a nuclear bomb on this exped that is going to detonate, if you can find it and disarm it within 5 minutes you will get some sort of prize! Salvage has a clear goal and objective with a reward at the end.
+
+A trouble is more open form but no less difficult and would be something like: There is a dungeon, grab as much loot as you can but be warned, there is a boss in the area who will spawn after X minutes, if you kill them you'll get some extra rewards too! Or there is a dungeon, every minute enemies will spawn outside until you are swarmed, grab as much stuff as you can and get out before you get overwhelmed.
+
+Regardless of mission type all expeds should have hard time limits, where the gate is forced to close or dropship is forced to leave and flavor wise, there should be an in lore reason why you don't just stay on the planet and never return to NT (place is overwhelmed with monsters, NT is moving in to take control of the dungeon, something something unwinnable battle rocks fall).
+
+
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
