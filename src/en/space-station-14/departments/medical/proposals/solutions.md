@@ -2,7 +2,7 @@
 
 | Designers | Implemented | GitHub Links |
 |---|---|---|
-| Sinbiosis | :x: No | TBD |
+| Princess Cheeseballs | :x: No | TBD |
 
 ## Overview
 
